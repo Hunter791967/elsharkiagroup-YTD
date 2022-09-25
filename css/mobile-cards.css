@@ -1,0 +1,412 @@
+.catg-inline{
+    display: flex;
+    width: 100%;
+}
+.catg-inline-marg{
+    margin: 5px 0 0 8px;
+}
+@media only screen and (max-width:1300px){
+    .card_image {
+        height: 200px;
+        /* margin-bottom: 40px; */
+    }
+    .product_detailsContainer{
+        margin-right: 3%;
+    }
+    .main_relatedProducts{
+        width: 70%;
+    }
+    .custm-item-title{
+        font-size: 2.3em;
+    }
+    .materials-title{
+        font-size: 2.6em;
+    }
+    
+}
+/* @media only screen and (max-width:904px){
+    .sub-catg-align{
+        display: flex;
+    }
+    .sub-catg-align img{
+        height: 30px;
+    }
+} */
+@media only screen and (max-width:1300px) and (min-width:768.1px){
+    .flip{
+        height: 260px;
+    }
+    .card_image{
+        margin-bottom: 9px;
+    }
+    .smallCard_image{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .materials-title{
+        font-size: 2.1em;
+    }
+}
+
+/* Medium devices (tablets, 991.98px and down) */
+@media only screen and (max-width:991.98px){
+    .core_section{
+        width: 98%;
+    }
+    .main_relatedProducts{
+        width: 72%;
+    }
+    .related_products{
+        justify-content: space-around;
+    }
+    .flip{
+        width: 30%;
+    }
+    .product_detailsContainer .item .item_title{
+        font-size: 2.5em;
+    }
+    .product_detailsContainer .item .materials-title{
+        font-size: 1.6em;
+    }
+    .product_detailsContainer .item .custm-item-title{
+        font-size: 1.9em;
+    }
+}
+
+/* Small devices (landscape phones, 768px and down) */
+@media only screen and (max-width:768px){
+    .product_detailsContainer{
+        width: 30%;
+        margin-right: 10px;
+    }
+    .product_detailsContainer-cusomHight{
+        height: 320px;
+    }
+    .product_detailsContainer .item{
+        padding-left: 13px
+    }
+    .product_detailsContainer .item .item_title {
+        font-size: 2.1em;
+    }
+    .product_detailsContainer .item .materials-title{
+        font-size: 1.38em;
+    }
+    .product_detailsContainer .item .custm-item-title {
+        font-size: 1.5em;
+    }
+    .product_detailsContainer .item .miscellaneous-font{
+        font-size: 1.7em;
+    }
+    .item_info{
+        padding-left: 13px;
+    }
+    .item_availability{
+        font-size: 1em;
+    }
+    .pullets_a{
+        font-size: 0.9em;
+    }
+    .pullets_a img{
+        width: 25px;
+    }
+    .flip{
+        width: 44%;
+    }
+    .catg-inline-marg{
+        margin: 3px 0 0 8px;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:658px){
+    .flip{
+        height: 295px;
+    }
+    .card_image {
+        height: 220px;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width:630px){
+    .product_detailsContainer .item .miscellaneous-font{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width:657px) and (min-width:576px){
+    .flip{
+        height: 275px;
+    }
+    .card_image {
+        height: 200px;
+        margin-bottom: 15px;
+    }
+}
+
+/* X-Small devices ( phones, 576px and down) */
+@media only screen and (max-width:575.9px){
+    .product_detailsContainer{
+        width: 44%;
+    }
+    .product_detailsContainer .item .item_title {
+        font-size: 1.5em;
+    }
+    .product_detailsContainer .item .materials-title{
+        font-size: 1.4em;
+    }
+    .item_availability {
+        font-size: 0.8em;
+    }
+    .pullets_a {
+        font-size: 0.8em;
+    }
+    .pullets_a img {
+        width: 16px;
+    }
+    .main_relatedProducts {
+        width: 56%;
+        
+    }
+    .flip {
+        width: 190px;
+        height: 260px;
+    }
+    .card_image {
+        width: 180px;
+        height: 167px;
+        /* margin: 20px auto 87px auto; */
+        margin: 0 auto 29px auto;
+    }
+    .smallCard_image {
+        width: 140px;
+        height: 140px;
+    }
+    /* side bar font adhesives  */
+    .product_detailsContainer .item .adhesives-font {
+        font-size: 2em;
+    }
+    .product_detailsContainer .item .coatings-font{
+        font-size: 2.4em;
+    }
+    .adhesives-category , .coatings-category{
+        font-size: 1em;
+    }
+    .item_pullets li{
+        padding-top: 6px;
+    }
+    .pullets_a .adhesives-category-img{
+        width: 20px;
+        margin-top: -5px;
+    }
+    .sub-adhesives-category{
+        font-size: 0.9em;
+    }
+    /* side bar font Decoration  */
+    .product_detailsContainer .item .decoration-font{
+        font-size: 2em;
+    }
+    .decoration-category{
+        font-size: 1em;
+    }
+    .pullets_a .decoration-category-img{
+        width: 20px;
+        margin-top: -5px;
+    }
+    .sub-decoration-category{
+        font-size: 0.9em;
+    }
+    /* ---- */
+    .product_detailsContainer .item .miscellaneous-font{
+        font-size: 157%;
+    }
+    .miscellaneous-category , .materials-category{
+        font-size: 1em;
+    }
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.9em;
+    }
+}
+@media only screen and (max-width:517px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.7em;
+    }
+}
+@media only screen and (max-width:471px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width:441px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width:380px){
+    .flip {
+        width: 90%;
+        height: 246px;
+    }
+    .card_image {
+        width: 141px;
+        margin: 0 auto 12px auto;
+    }
+}
+
+@media only screen and (max-width:400px){
+    
+    .product_detailsContainer .item .custm-item-title {
+        font-size: 1.22em;
+    }
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.3em;
+    }
+    /* side bar font adhesives */
+    .product_detailsContainer .item .adhesives-font {
+        font-size: 1.6em;
+    }
+    .adhesives-category {
+        font-size: 0.8em;
+    }
+    .sub-adhesives-category {
+        font-size: 0.8em;
+    }
+    /* side bar font Decoration  */
+    .product_detailsContainer .item .decoration-font{
+        font-size: 1.6em;
+    }
+    .decoration-category{
+        font-size: 0.8em;
+    }
+    .sub-decoration-category{
+        font-size: 0.8em;
+    }
+    .miscellaneous-category {
+        font-size: 0.8em;
+    }
+    .product_detailsContainer .item .coatings-font{
+        font-size: 2em;
+    }
+    .adhesives-category , .coatings-category{
+        font-size: 0.8em;
+    }
+    .materials-category {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width:565px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.7em;
+    }
+}
+@media only screen and (max-width:465px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width:440px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:415px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width:390px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width:365px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.2em;
+    }
+    .flcard p{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width:340px){
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.1em;
+    }
+}
+
+/* XX-Small devices ( phones, 320px and down) */
+@media only screen and (max-width: 320px){
+    .product_detailsContainer {
+        width: 49%;
+    }
+    .product_detailsContainer .item .item_title {
+        font-size: 1.2em;
+    }
+    .product_detailsContainer .item .item_title {
+        font-size: 1em;
+    }
+    .product_detailsContainer .item .custm-item-title {
+        font-size: 1.1em;
+    }
+    .item_availability {
+        font-size: 0.7em;
+    }
+    .pullets_a {
+        font-size: 0.8em;
+    }
+    .pullets_a img {
+        width: 13px;
+    }
+    .main_relatedProducts {
+        width: 50%;
+    }
+    .flip {
+        width: 93%;
+        height: 210px;
+    }
+    .card_image {
+        width: 118px;
+        height: 113px;
+        margin: 20px auto 19px auto;
+    }
+    .flcard p{
+        font-size: 0.7em;
+    }
+    .flcard p small {
+        font-size: 0.7em;
+    }
+    .brief_text {
+        font-size: 0.6em;
+    }
+    .button_two{
+        font-size: 0.9em;
+    }
+    .smallCard_image {
+        width: 100px;
+        height: 100px;
+    }
+    /* side bar font adhesives */
+    .product_detailsContainer .item .adhesives-font {
+        font-size: 1.4em;
+    }
+    .pullets_a .adhesives-category-img {
+        width: 15px;
+    }
+    /* side bar font Decoration  */
+    .product_detailsContainer .item .decoration-font{
+        font-size: 1.4em;
+    }
+    .pullets_a .decoration-category-img{
+        width: 15px;
+    }
+    /*  */
+    .product_detailsContainer .item .coatings-font{
+        font-size: 1.7em;
+    }
+    .adhesives-category , .coatings-category{
+        font-size: 0.8em;
+    }
+    .product_detailsContainer .item .materials-title {
+        font-size: 1.09em;
+    }
+}
